@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-	<title>TP</title>
+	<title>Inicio</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<link rel="stylesheet" href="css/estilo.css">
 	<link rel="stylesheet" href="css/ico.css">
+	<link rel="stylesheet" href="css/aside.css">
 </head>
 <body>
 	<header>
@@ -23,32 +24,31 @@
 	</header>
 	<nav>
 			<ul>
-				<li><span class="icon-home"></span>Inicio</li>
-				<li><span class="icon-connection"></span>Nosotros</li>
-				<li><span class="icon-mail2"></span>Contacto</li>
+				<a href="index.html"><li><span class="icon-home"></span>Inicio</li></a>
+				<a href="#"><li><span class="icon-connection"></span>Nosotros</li></a>
+				<a href="contacto.html"><li><span class="icon-mail2"></span>Contacto</li></a>
 			</ul>
-	</nav>
+		</nav>
 	<main>
 		<section>
-			<img class="carrousel" src="img/COVER.jpg" alt="carrousel">
 			<h2>ULTIMOS PRODUCTOS</h2>
 			<article>
 					<img src="img/01.jpg" alt="imagen">
 				<p class="nombreProducto">Umbro Clasicos - Negro</p>
 				<p class="precio">$1.500</p>
-			<a href="#" class="boton">Agregar al carrito</a>
+			<a href="descProd.html" class="boton">Agregar al carrito</a>
 			</article>
 			<article>
 				<img src="img/02.jpg" alt="imagen">
 				<p class="nombreProducto">Nombre del producto</p>
 				<p class="precio">$$</p>
-				<a href="#" class="boton">Agregar al carrito</a>
+				<a href="descProd.html" class="boton">Agregar al carrito</a>
 			</article>
 			<article>
 				<img src="img/03.jpg" alt="imagen">
 				<p class="nombreProducto">Nombre del producto</p>
 				<p class="precio">$$</p>
-				<a href="#" class="boton">Agregar al carrito</a>
+				<a href="descProd.html" class="boton">Agregar al carrito</a>
 			</article>
 			<div class="clear"></div>
 		</section>
@@ -58,19 +58,19 @@
 				<img src="img/04.jpg" alt="imagen">
 				<p class="nombreProducto">Nombre del producto</p>
 				<p class="precio">$$</p>
-				<a href="#" class="boton">Agregar al carrito</a>
+				<a href="descProd.html" class="boton">Agregar al carrito</a>
 			</article>
 			<article>
 				<img src="img/05.jpg" alt="imagen">
 				<p class="nombreProducto">Nombre del producto</p>
 				<p class="precio">$$</p>
-				<a href="#" class="boton">Agregar al carrito</a>
+				<a href="descProd.html" class="boton">Agregar al carrito</a>
 			</article>
 			<article>
 				<img src="img/06.jpg" alt="imagen">
 				<p class="nombreProducto">Nombre del producto</p>
 				<p class="precio">$$</p>
-				<a href="#" class="boton">Agregar al carrito</a>
+				<a href="descProd.html" class="boton">Agregar al carrito</a>
 			</article>
 			<div class="clear"></div>
 		</section>
@@ -81,24 +81,33 @@
 				<h2 class="oferta">Oferta</h2>
 				<p class="nombreProducto">Nombre del producto</p>
 				<p class="precio">$$</p>
-				<a href="#" class="boton">Agregar al carrito</a>
+				<a href="descProd.html" class="boton">Agregar al carrito</a>
 			</article>
 			<article class="ofertasRelative">
 				<h2 class="oferta">Oferta</h2>
 				<img src="img/08.jpg" alt="imagen">
 				<p class="nombreProducto">Nombre del producto</p>
 				<p class="precio">$$</p>
-				<a href="#" class="boton">Agregar al carrito</a>
+				<a href="descProd.html" class="boton">Agregar al carrito</a>
 			</article>
 			<article class="ofertasRelative">
 				<h2 class="oferta">Oferta</h2>
 				<img src="img/09.jpg" alt="imagen">
 				<p class="nombreProducto">Nombre del producto</p>
 				<p class="precio">$$</p>
-				<a href="#" class="boton">Agregar al carrito</a>
+				<a href="descProd.html" class="boton">Agregar al carrito</a>
 			</article>
 			<div class="clear"></div>
 		</section>
+	<aside>
+		<h2>TUS MARCAS FAVORITAS</h2>
+		<div class="contAside">
+			<div class="marca"><img src="img/adidas.png"></div>
+			<div class="marca"><img src="img/nike.png"></div>
+			<div class="marca"><img src="img/umbro.png"></div>
+			<div class="marca"><img src="img/puma.png"></div>
+		</div>
+	</aside>
 	</main>
 	<footer>
 		<div class="caja1">
@@ -108,8 +117,8 @@
 		</div>
 		<div class="caja1">
 			<h5>Menu Inferior</h5>
-				<a href="#">Inicio</a>
-				<a href="#">Contacto</a>
+				<a href="index.html">Inicio</a>
+				<a href="contacto.html">Contacto</a>
 		</div>
 		<div class="caja1">
 			<h5>Redes Sociales</h5>

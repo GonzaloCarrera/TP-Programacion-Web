@@ -9,12 +9,12 @@ body{
 	margin:auto;
 	font-family: 'PT Sans Caption', sans-serif;
 	background-color: #e5e5e5;
+
 }
 header{
 	width: 90%;
-	height: auto;
 	background-color:#000;
-	padding: 2% 5%;
+	padding: 1% 5%;
 	position: fixed;
 	z-index: 2;
 }
@@ -31,7 +31,7 @@ header{
 #cont_CS{
 	width: 90%;
 	height: 5px;
-	padding: 1% 5%;
+	padding: 1% 1%;
 	margin:auto;
 }
 #carrito{
@@ -72,7 +72,7 @@ header{
 }
 nav{
 	width: 100%;
-	padding: 11em 0 0 0;
+	padding: 10.5em 0 0 0;
 	position: fixed;
 	background-color: #737171;
 	box-sizing:border-box;
@@ -89,7 +89,7 @@ ul{
 }
 li{
 	display: block;
-	width: 7em;
+	width: 6.7em;
 	text-align:center;
 	padding: 0.4em;
 	background-color:#E74043;
@@ -108,15 +108,16 @@ li:hover{
 li span{
 	margin-right: 0.4em;
 }
-
 main{
 	width: 90%;
+	height: auto;
 	padding-top: 17em;
 	margin:auto;
 	margin-bottom: 1em;
 	padding-bottom: 1em;
+	background-color: #fff;
+	
 }
-
 article{
 	background-color:#C9C9C9;
 	padding:1em;
@@ -188,6 +189,13 @@ article img {
 	padding:0.2em;
 	color: #fff;
 }
+nav a{
+	text-decoration: none;
+	color:white;
+}
+nav a:hover{
+	color:black;
+}
 
 
 h2{
@@ -203,15 +211,15 @@ section{
 	margin:auto;
 	padding: 0 5%;
 }
-
 footer{
 	clear: both;
 	width: 90%;
 	height: 14em;
-	padding: 1% 10%;
+	padding: 1% 5%;
 	margin: auto;
 	background-color: #000; 
 	font-size: 0.8em;
+
 }
 
 .caja1{
@@ -240,9 +248,15 @@ h5{
 .carrousel{
 	width: 0;
 }
+.marca{
+		transition:0.4s;
+}
+.marca:hover{
+	background-color:rgba(255,0,0,0.2);
+	border-radius: 1em;
+}
 
 /*Celular*//*Celular*//*Celular*//*Celular*//*Celular*/
-
 /*tablet*//*tablet*//*tablet*//*tablet*//*tablet*/
 @media screen and (min-width:47em){ 
 #logo{
@@ -253,6 +267,7 @@ header{
 }
 main{
 	padding-top:7.5em;
+	padding-bottom:3em;
 }
 article{
 	width: 45%;
@@ -260,11 +275,11 @@ article{
 	float:left;
 }
 nav{
-	position:static;
-	padding:0;
+	padding: 0;
+	position: static;
 }
 ul{
-	margin: 0 20%;
+	padding: 0.2em 8em;
 }
 li{
 	width: 10em;
@@ -298,9 +313,17 @@ li{
 	width: 100%;
 	margin-bottom:1.2em;
 }
+.caja1{
+	width: 30%;
+}
+footer{
+	height:7em;
+}
+
+}
+
 
 /*tablet*//*tablet*//*tablet*//*tablet*//*tablet*/
-
 /*pc*//*pc*//*pc*//*pc*//*pc*//*pc*//*pc*//*pc*/
 
 @media screen and (min-width:60em){
@@ -310,8 +333,23 @@ article{
 	margin: 0 1.5%;
 	margin-bottom: 3%;
 }
+main{
+	height: auto;
+	padding-bottom:8em;
+}
+nav{
+	width: 100%;
+	padding:0;
+	margin:0;
+}
+li{
+	width: 10em;
+	margin:0.2em 0.4em;
+	padding:0.4em 0;
+}
 ul{
-	padding:0.2em 3%;
+	padding:0 0%;
+	margin:0;
 }
 [type="search"]{
 	left:30em;
@@ -323,9 +361,4 @@ ul{
 	left:42.9em;
 	border:0.1em solid black;
 }
-footer{
-	height:6em;
 }
-}
-
-/*pc*//*pc*//*pc*//*pc*//*pc*//*pc*//*pc*//*pc*/

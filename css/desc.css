@@ -1,23 +1,31 @@
+.contArt{
+	width: 100%;
+	height: 22em;
+}
 .description {
-	width: 85%;
+	background-color:#C9C9C9;
+	padding:1em;
+	text-align: center;
 	margin:auto;
-	padding: 5% 5%;
-	height:20em;
-	background-color: red;
+	margin-bottom:1.5em;
+	width: 100%;
+	height: 22em;
+	border:0.03em solid rgb(200, 200, 200);
 }
 
 .imaPrin{
-	width: 48%;
-	background-color: green;
+	width: 30%;
 	float: left;
 	margin-right: 1em;
 
 }
 .descComun{
-	width: 48%;
+	width: 60%;
 	height: auto;
-	background-color: grey;
+	background-color: #fff;
 	float: left;
+	border-radius: 1em;
+	border:0.03em solid rgb(200, 200, 200);
 
 }
 .titulo{
@@ -26,8 +34,8 @@
 	font-size: 1em;
 	color: #000;
 	font-weight: bold;
-	background-color: orange;
 	padding: 0.5em;
+	border-bottom: 0.03em solid rgb(200, 200, 200);
 
 }
 .descripcion{
@@ -35,33 +43,31 @@
 	height: 70%;
 	font-size: 0.8em;
 	color: #000;
-	background-color: violet;
 	padding: 0.5em;
-
 }
 p{
 	display: block;
+	font-size: 1em;
+	text-align: left;
 }
+
 .precioP{
 	width: 40%;
 	height: 15%;
-	font-size: 1.2em;
+	font-size: 1.5em;
 	font-weight: bold;
 	color: #000;
-	background-color: white;
 	float: left;
 	text-align: center;
-	padding-top: 0.5em;
 	box-sizing: border-box;
-
 }
 .botonCarrito{
-	width: 40%;
+	width: 25%;
 	height: 15%;
 	color: #000;
-	background-color: white;
 	float: right;
-	padding-top: 0.5em;
+	padding-top: 0.1em;
+	margin-right:1em;
 	box-sizing: border-box;
 
 }
@@ -89,11 +95,19 @@ a.botonCarrito:hover{
 	width: 100%;
 	color: #000;
 	font-size: 1.2em;
-	background-color: #e5e5e5;
+	background-color: #fff;
 	text-align: center;
+	margin-top: 0.5em;
+	border-radius: 1em;
+	border:0.03em solid rgb(200, 200, 200);
 }
 .redesSociales span{
 	padding:1em;
+}
+
+.contRelacionados{
+	width: 100%;
+	height: 15em;
 }
 .description, .imaPrin, .descComun, .titulo, .descripcion, .precioP, .botonCarrito, .redesSociales{
 box-sizing: border-box;
@@ -102,3 +116,39 @@ img{
     max-width: 100%;
     height: auto;
     width: auto\9; /* ie8 */}
+
+
+
+/*tablet*//*tablet*//*tablet*//*tablet*//*tablet*/
+@media screen and (min-width:47em){ 
+.description {
+	height: 23em;
+}
+.descComun{
+	height: 21.5em;
+	width: 19.5em;
+}
+p{
+	display: block;
+	font-size: 1em;
+	text-align: left;
+}
+
+/*tablet*//*tablet*//*tablet*//*tablet*//*tablet*/
+/*pc*//*pc*//*pc*//*pc*//*pc*//*pc*//*pc*//*pc*/
+
+@media screen and (min-width:60em){
+
+.description {
+	height: 22em;
+}
+.descComun{
+	height: 15.5em;
+	width: 66%;
+}
+.imaPrin{
+	width: 30%;
+	float: left;
+	margin-right: 1em;
+
+}
