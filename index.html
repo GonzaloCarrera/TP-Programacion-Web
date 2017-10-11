@@ -4,20 +4,33 @@
 	<title>TP</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-	<link rel="stylesheet" href="css/estilos.css">
-<head>
+	<link rel="stylesheet" href="css/estilo.css">
+	<link rel="stylesheet" href="css/ico.css">
+</head>
 <body>
 	<header>
 		<div id="logo"><img src="img/logoMD.jpg"></div>
-		<input type="search" id="search" name="search" placeholder="Buscar...">
-		<div id="carrito"><img src="img/carrito.png"></div>
+		<div id="cont_CS">
+			<input type="search" id="search" name="search" placeholder="Buscar...">
+			<div id="buscar">
+				<span class="icon-search"></span>
+			</div>
+			<div id="carrito">
+				<span class="icon-cart"></span>
+			</div>
+		</div>
 		<div class="clear"></div>
 	</header>
+	<nav>
+			<ul>
+				<li><span class="icon-home"></span>Inicio</li>
+				<li><span class="icon-connection"></span>Nosotros</li>
+				<li><span class="icon-mail2"></span>Contacto</li>
+			</ul>
+	</nav>
 	<main>
-		<nav>
-			<h3>MENU</h3>
-		</nav>
 		<section>
+			<img class="carrousel" src="img/COVER.jpg" alt="carrousel">
 			<h2>ULTIMOS PRODUCTOS</h2>
 			<article>
 					<img src="img/01.jpg" alt="imagen">
@@ -87,4 +100,25 @@
 			<div class="clear"></div>
 		</section>
 	</main>
+	<footer>
+		<div class="caja1">
+			<h5>Horarios y Direccion</h5>
+			<p>Lunes a Viernes de 8:00 a 21:00</p>
+			<p>Florencio Varela 150, La Matanza, Buenos Aires</p>
+		</div>
+		<div class="caja1">
+			<h5>Menu Inferior</h5>
+				<a href="#">Inicio</a>
+				<a href="#">Contacto</a>
+		</div>
+		<div class="caja1">
+			<h5>Redes Sociales</h5>
+				<div class="redes"></div>
+					<a href="#"><img src="img/face.png"></a>
+					<a href="#"><img src="img/inst.png"></a>
+					<a href="#"><img src="img/twitter.png"></a>
+				</div>
+		</div>
+	</footer>
 </body>
+</html>
