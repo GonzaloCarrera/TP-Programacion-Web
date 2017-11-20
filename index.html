@@ -1,42 +1,75 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-	<title>Inicio</title>
+	<title>Mundo Deporte</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="/favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" href="css/jquery-ui.css">
 	<link rel="stylesheet" href="css/estilo.css">
-	<link rel="stylesheet" href="css/ico.css">
+	<link rel="stylesheet" href="icomoon/style.css">
 	<link rel="stylesheet" href="css/aside.css">
+	<script src="js/jquery.min.js"></script>
+	<script src="js/jquery-ui.js"></script>
+    <script type="text/javascript" src="js/codigo.js"></script>
 </head>
 <body>
 	<header>
-		<div id="logo"><img src="img/logoMD.jpg"></div>
-		<div id="cont_CS">
-			<input type="search" id="search" name="search" placeholder="Buscar...">
-			<div id="buscar">
-				<span class="icon-search"></span>
+			<div id="logo"><img src="img/logo.png"></div>
+			<div id="contHeader1">
+				<div id="contDir">Av. Alvarez Thomas 8523 - CABA</div>
+				<div id="contLogin">
+					<nav class="login">
+						<ul class="loginUL">
+							<li class="loginLI"><span class="icon-user"></span>Login</span></li>
+							<li class="loginLI"><span class="icon-user"></span>Registrarse</li>
+						</ul>
+					</nav>
+				</div>
+				<div id="contRedes">
+					<div class="redSocialTop"><img src="img/face.png"></div>
+					<div class="redSocialTop"><img src="img/twitter.png"></div>
+					<div class="redSocialTop"><img src="img/inst.png"></div>
+				</div>
 			</div>
-			<a href="carrito.html"><div id="carrito">
-				<span class="icon-cart"></span>
-			</div></a>
-		</div>
+			<div id="contHeader2"></div>
+			<div id="contHeader3">
+				<div id="contBuscar">
+					<input type="search" id="search" name="search" placeholder="Buscar...">
+					<div id="buscar"><span class="icon-search"></span></div>
+				</div>
+				<div id="contCarrito">
+					<div id="boxCarr">
+						<p class="sumaCarrito">0</p>
+						<a href="carrito.html">
+						<div id="carrito"><span class="icon-cart"></span></div></a>
+					</div>
+				</div>
+				<div id="contMenu">
+					<nav class="menuPrincipal">
+						<ul class="mpUL"><a href="contacto.html"><li class="mpLI">
+							<span class="icon-mail2"></span>Contacto</li></a>
+							<a href="#"><li class="mpLI"><span class="icon-connection"></span>Nosotros</li></a>
+							<a href="index.html"><li class="mpLI"><span class="icon-home"></span>Inicio</li></a>
+						</ul>
+					</nav>
+				</div>
+			</div>
 		<div class="clear"></div>
 	</header>
-	<nav>
-			<ul>
-				<a href="index.html"><li><span class="icon-home"></span>Inicio</li></a>
-				<a href="#"><li><span class="icon-connection"></span>Nosotros</li></a>
-				<a href="contacto.html"><li><span class="icon-mail2"></span>Contacto</li></a>
-			</ul>
-		</nav>
+	
+	<div id="sliderCont">
+		<iframe src ="nivoslider/nivo.html" width="100%" height="100%"> <p>Tu navegador no soporta el slider</p> </iframe>
+	</div>
 	<main>
 		<section>
 			<h2>ULTIMOS PRODUCTOS</h2>
-			<article>
-					<img src="img/01.jpg" alt="imagen">
+			<article class="fondoProducto">
+				<img src="img/01.jpg" alt="imagen">
 				<p class="nombreProducto">Umbro Clasicos - Negro</p>
 				<p class="precio">$1.500</p>
-			<a href="descProd.html" class="boton">Agregar al carrito</a>
+			<a class="boton">Agregar al carrito</a>
 			</article>
 			<article>
 				<img src="img/02.jpg" alt="imagen">
@@ -98,16 +131,17 @@
 				<a href="descProd.html" class="boton">Agregar al carrito</a>
 			</article>
 			<div class="clear"></div>
-		</section>
-	<aside>
 		<h2>TUS MARCAS FAVORITAS</h2>
-		<div class="contAside">
-			<div class="marca"><img src="img/adidas.png"></div>
-			<div class="marca"><img src="img/nike.png"></div>
-			<div class="marca"><img src="img/umbro.png"></div>
-			<div class="marca"><img src="img/puma.png"></div>
-		</div>
-	</aside>
+		<aside>
+			<div id="contAside">
+				<div class="marca"><img src="img/adidas.png"></div>
+				<div class="marca"><img src="img/nike.png"></div>
+				<div class="marca"><img src="img/umbro.png"></div>
+				<div class="marca"><img src="img/puma.png"></div>
+			</div>
+		</aside>
+	</section>
+	
 	</main>
 	<footer>
 		<div class="caja1">
