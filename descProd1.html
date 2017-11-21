@@ -7,18 +7,21 @@
 	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
 	<link rel="icon" href="/favicon.ico" type="image/x-icon">
 	<link rel="stylesheet" href="css/jquery-ui.css">
-	<link rel="stylesheet" href="css/estilo.css">
+	<link rel="stylesheet" href="css/fancy/jquery.fancybox.css" />
 	<link rel="stylesheet" href="icomoon/style.css">
+	<link rel="stylesheet" href="css/estilo.css">
+	<link rel="stylesheet" href="css/descripcion.css">
 	<link rel="stylesheet" href="css/aside.css">
 	<script src="js/jquery.min.js"></script>
 	<script src="js/jquery-ui.js"></script>
+	<script src="js/jquery.fancybox.js"></script>
     <script type="text/javascript" src="js/codigo.js"></script>
 </head>
 <body>
 	<header>
 			<div id="logo"><img src="img/logo.png"></div>
 			<div id="contHeader1">
-				<div id="contDir">Av. Alvarez Thomas 8523 - La Reja - Bs. As. -021 5241-8954
+				<div id="contDir">Av. Alvarez Thomas 8523 - CABA - 5241-8954
 </div>
 				<div id="contLogin">
 					<nav class="login">
@@ -61,80 +64,42 @@
 			</div>
 		<div class="clear"></div>
 	</header>
-	<div id="sliderCont">
-		<iframe src ="nivoslider/nivo.html" width="100%" height="100%"> <p>Tu navegador no soporta el slider</p> </iframe>
-	</div>
 	<main>
+		
 		<section>
-			<h2>ULTIMOS PRODUCTOS</h2>
-			<article>
-				<a href="descProd1.html"><img src="img/01.jpg" alt="imagen"></a>
-				<p class="nombreProducto">Umbro Speciali Eternal Pro SG (Black/White)</p>
-				<p class="precio">$1.499</p>
-			<a href="#" class="boton">Agregar al carrito</a>
-			</article>
-			<article>
-				<img src="img/02.jpg" alt="imagen">
-				<p class="nombreProducto">Umbro Sty Grass II Jr (Red/Black/White)</p>
-				<p class="precio">$1.299</p>
-				<a href="#" class="boton">Agregar al carrito</a>
-			</article>
-			<article>
-				<img src="img/03.jpg" alt="imagen">
-				<p class="nombreProducto">Umbro Sty Speed Ii (Green Fluo/Blue)</p>
-				<p class="precio">$1.399</p>
-				<a href="#" class="boton">Agregar al carrito</a>
-			</article>
-			<div class="clear"></div>
+			<h2>DESCRIPCIÓN DEL PRODUCTO</h2>
+			<div class="contArt">
+				<article class="description">
+					<div class="imaPrin"><img src="img/01.jpg">
+						<div class="redesSociales">
+							<span class="icon-facebook"></span>
+							<span class="icon-twitter"></span>
+							<span class="icon-whatsapp"></span>
+						</div>
+					</div>
+					<div class="descComun">
+						<div class="titulo">Botines Umbro hardPress</div>
+						<div class="descripcion">
+								<p>- Exterior suave y liviano con tecnología Control Feel </p>
+								<p>- Suela para terreno flexible permite velocidad y estabilidad</p>
+							<div class="min1">						
+								<a class="fancybox" href="img/umbro1.jpg" data-fancybox-group="gallery" title="Suela">
+                    			<img src="img/chicas/umbro1.png" alt="" />
+               					 </a>
+               					 <a class="fancybox" href="img/umbro2.jpg" data-fancybox-group="gallery" title="Arriba">        
+                   				 <img src="img/chicas/umbro2.png" alt="" />
+                				</a>
+                				<a class="fancybox" href="img/umbro4.jpg" data-fancybox-group="gallery" title="Perfil contrario">        
+                    			<img src="img/chicas/umbro3.png" alt="" />
+                				</a>
+            				</div>
+						</div>
+						<div class="precioP">$1.500</div>
+						<div class="botonCarrito2"><a href="#" class="boton"><span class="icon-cart"></span></a></div>
+					</div>
+				</artticle>
+			</div>
 		</section>
-		<section>
-			<h2>PRODUCTOS DESTACADOS</h2>
-			<article>
-				<img src="img/04.jpg" alt="imagen">
-				<p class="nombreProducto">Adidas F50 Adizero (Blue/White/Slime)</p>
-				<p class="precio">$1.499,00</p>
-				<a href="#" class="boton">Agregar al carrito</a>
-			</article>
-			<article>
-				<img src="img/05.jpg" alt="imagen">
-				<p class="nombreProducto">Adidas Predator X TRX FGM (Black/White/Predator Red)</p>
-				<p class="precio">$1.799</p>
-				<a href="#" class="boton">Agregar al carrito</a>
-			</article>
-			<article>
-				<img src="img/06.jpg" alt="imagen">
-				<p class="nombreProducto">Adidas Predator X FG WC (Yellow/Black/Red)</p>
-				<p class="precio">$1.899</p>
-				<a href="#" class="boton">Agregar al carrito</a>
-			</article>
-			<div class="clear"></div>
-		</section>
-		<section>
-			<h2>OFERTAS</h2>
-			<article class="ofertasRelative">
-				<img src="img/07.jpg" alt="imagen">
-				<h2 class="oferta">Oferta</h2>
-				<p class="nombreProducto">Nike Tiempo Legend VI FG (Clear Jade)</p>
-				<p class="precio">$1.099</p>
-				<a href="#" class="boton">Agregar al carrito</a>
-			</article>
-			<article class="ofertasRelative">
-				<h2 class="oferta">Oferta</h2>
-				<img src="img/08.jpg" alt="imagen">
-				<p class="nombreProducto">Nike Mercurial Vapor 9 (Purple/Neon Yellow)</p>
-				<p class="precio">$1.199</p>
-				<a href="#" class="boton">Agregar al carrito</a>
-			</article>
-			<article class="ofertasRelative">
-				<h2 class="oferta">Oferta</h2>
-				<img src="img/09.jpg" alt="imagen">
-				<p class="nombreProducto">Nike Tiempo Legend VI (Pure Platinum/Metallic Silver/Black)</p>
-				<p class="precio">$999</p>
-				<a href="#" class="boton">Agregar al carrito</a>
-			</article>
-			<div class="clear"></div>
-		</section>
-	
 	</main>
 	<footer>
 		<div class="caja1">

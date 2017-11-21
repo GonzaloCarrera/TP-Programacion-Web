@@ -12,8 +12,8 @@ body{
 
 }
 header{
-	width: 95%;
-	height: 9.3em;
+	width: 100%;
+	height: 5.3em;
 	background-color: grey;
 	padding: 0% 0% 0% 1%;
 	position: fixed;
@@ -113,11 +113,167 @@ li:hover{
 li span{
 	margin-right: 0.4em;
 }*/
+
+/*ARRANCA */
+#logo{
+	width:5em;
+	float:left;
+}
+
+#contHeader1{
+	width: 55%;
+	float: right;
+	margin-top: 0.1em;
+}
+#contDir{
+	display:none;
+	width: 50%;
+	float: left;
+	padding-top:0.1em;
+	text-align: right;
+}
+#contLogin{
+	width: 30%;
+	font-size: 10px;
+	float: left;
+	box-sizing:border-box;
+	margin-left: 0.2em;
+}
+/*.login{
+	width: 100%;
+	padding:0;
+	margin:0;
+}*/
+.loginUL{
+	text-decoration: none;
+	box-sizing:border-box;
+	float:right;
+}
+.loginLI{
+	display: block;
+	width: 6.5em;
+	padding: 0.5em 0;
+	text-align:center;
+	margin-right: 0.3em;
+	color: #000;
+	box-sizing:border-box;
+	float:left;
+	transition:0.3s;
+}
+.loginLI:hover{
+	background-color:orange;
+	color:#fff;
+	box-shadow: grey 0 0 1em;
+}
+#contRedes{
+	max-width: 5em;
+	float: right;
+}
+.redSocialTop{
+	width: 30%;
+	height: 100%;
+	float: left;
+	margin-right: 1%;
+}
+#contHeader3{
+	width: 60%;
+	float: right;
+}
+#contBuscar{
+	width: 60%;
+	height: auto;
+	float: left;
+	box-sizing: border-box;
+}
+[type="search"]{
+	margin: 0;
+	width: 70%;
+	float: left;
+}
+#buscar{
+	padding: 0.28em 0.3em;
+	cursor:pointer;
+	font-size: 0.7em;
+  	color: #000;
+  	float: left;
+  	cursor:pointer; 
+}
+#contCarrito{
+	width:auto;
+	height: auto;
+	float: left;
+	box-sizing: border-box;
+}
+#boxCarr{
+	width: 30px;
+	position: relative;
+}
+#carrito{
+	box-sizing: border-box;
+	transition:0.3s;
+	cursor:pointer;
+	font-size: 0.8em;
+  	color: #000;
+  	float: left;
+  	padding-top: 0.3em;
+}
+#carrito:hover{
+  	color: orange;
+}
+.sumaCarrito{
+	font-weight: bold;
+	border-radius: 50%;
+	background-color: orange;
+	text-align: left;
+	width: 0.8em;
+	font-size: 11px;
+	float: right;
+	z-index: 2;
+}
+#contMenu{
+	width:100%;
+	box-sizing: border-box;
+	margin-top: 0.8em;
+	position:absolute;
+	right: 0;
+	bottom:-0.9em;
+	background-color: white;
+	border-bottom: 1px solid black;
+}
+.menuPrincipal{
+	width: 100%;
+	box-sizing:border-box;
+}
+.mpUL{
+	width: 100%;
+	text-decoration: none;
+}
+.mpLI{
+	display: block;
+	width: 33%;
+	text-align:center;
+	color: #000;
+	box-sizing:border-box;
+	float:right;
+	transition:0.3s;
+	border-radius: 1em 1em 0.2em 0.2em;
+	font-size: 12px;
+}
+.mpLI:hover{
+	background-color:orange;
+	color:#fff;
+	box-shadow: grey 0 0 1em;
+}
+.mpLI span{
+	margin-right: 0.4em;
+}
+/*TERMINA*/
+
 #sliderCont{
 	width: 100%;
-	height: 270px;
+	height: 110px;
 	float: left;
-    margin-top:13em;
+    margin-top:6em;
     background-color: #fff;
 }
 iframe{
@@ -221,25 +377,30 @@ section{
 }
 footer{
 	clear: both;
-	width: 90%;
+	width: 80%;
 	height: 14em;
-	padding: 1% 5%;
+	padding: 7% 10%;
 	margin: auto;
 	background-color: #000; 
-	font-size: 0.8em;
-
+	font-size: 8px;
 }
-
 .caja1{
 	float: left;
-	width:25%;
+	width:28%;
 	height: auto;
 	margin: auto;
 	margin-left: 1em; 
-	padding: 5px;
+	padding: 5px 0;
 	color: #fff;
+	text-align: center;
 }
-
+.menuInferior{
+	font-size:1em;
+}
+#redes{
+	background-color: red;
+	margin-top: 0.5em;
+}
 footer a{
 	text-decoration: none;
 	color: #fff;
@@ -269,14 +430,17 @@ h5{
 img{
     max-width: 100%;
     height: auto;
-    width: auto\9; /* ie8 */}
+    width: auto\9; /* ie8 */
+}
+
 
 /*Celular*//*Celular*//*Celular*//*Celular*//*Celular*/
 /*tablet*//*tablet*//*tablet*//*tablet*//*tablet*/
+
 @media screen and (min-width:47em){ 
 header{
 	width: 100%;
-	height: 5em;
+	height: 6em;
 	background-color: #fff;
 	position: fixed;
 	z-index: 4;
@@ -287,13 +451,13 @@ header{
 	width:5em;
 	float: left;
 }
-
 #contHeader1{
 	width: 85%;
 	float: right;
 	margin-top: 0.1em;
 }
 #contDir{
+	display:block;
 	width: 40%;
 	float: left;
 	padding-top:0.1em;
@@ -371,15 +535,16 @@ header{
 	box-sizing: border-box;
 }
 #boxCarr{
-	width: 50px;
+	width: 40px;
 	height: 50px;
 	position: relative;
+	z-index:5;
 }
 #carrito{
 	box-sizing: border-box;
 	transition:0.3s;
 	cursor:pointer;
-	font-size: 1.5em;
+	font-size: 1.6em;
   	color: #000;
   	float: left;
   	padding-top: 15%;
@@ -393,7 +558,7 @@ header{
 	background-color: orange;
 	text-align: center;
 	width: 1em;
-	padding: 0.2%;
+	padding: 0.3%;
 	float: right;
 	z-index: 2;
 	margin-top: 0em;
@@ -402,6 +567,11 @@ header{
 	width:60%;
 	float: right;
 	box-sizing: border-box;
+	position:absolute;
+	right: 0;
+	bottom:0;
+	border-bottom:none;
+	background-color:none;
 }
 .menuPrincipal{
 	width: 100%;
@@ -483,7 +653,7 @@ main{
 	width: 100%;
 	height: 200px;
 	float: left;
-    margin-top:5.3em;
+    margin-top:6em;
     margin-bottom: 0.5em;
     background-color: #fff;
     -webkit-box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
@@ -500,9 +670,9 @@ main{
 	width: 30%;
 }
 footer{
-	height:7em;
+	height: 4em;
+	font-size: 12px;
 }
-
 
 }
 
@@ -535,6 +705,7 @@ header{
 	z-index: 4;
 	border-bottom: 0.1em solid grey;
 	box-sizing:border-box;
+	padding: 0 4em;
 }
 #logo{
 	width:8em;
@@ -542,7 +713,7 @@ header{
 }
 
 #contHeader1{
-	width: 85%;
+	width: 80%;
 	float: right;
 	margin-top: 0.2em;
 }
@@ -550,11 +721,13 @@ header{
 	width: 50%;
 	float: left;
 	padding-top:0.6em;
+	text-align: right;
 }
 #contLogin{
-	width: 30%;
+	width: 25%;
 	float: left;
-	padding-top:0.6em;
+	box-sizing:border-box;
+	margin-left: 2em;
 }
 /*.login{
 	width: 100%;
@@ -568,13 +741,19 @@ header{
 }
 .loginLI{
 	display: block;
-	width: 5.7em;
+	width: 6.5em;
+	padding: 0.5em 0;
 	text-align:center;
 	margin-right: 0.3em;
 	color: #000;
 	box-sizing:border-box;
 	float:left;
 	transition:0.3s;
+}
+.loginLI:hover{
+	background-color:orange;
+	color:#fff;
+	box-shadow: grey 0 0 1em;
 }
 #contRedes{
 	max-width: 14%;
@@ -595,11 +774,11 @@ header{
 }*/
 /*-----------------------------------------------*/
 #contHeader3{
-	width: 85%;
+	width: 80%;
 	float: right;
 }
 #contBuscar{
-	width: 30%;
+	width: 40%;
 	height: auto;
 	float: left;
 	padding: 1.8em 0 0 0;
@@ -655,9 +834,10 @@ header{
 	margin-top: 1em;
 }
 #contMenu{
-	width:60%;
+	width:50%;
 	float: right;
 	box-sizing: border-box;
+	margin-top: 0.8em;
 }
 .menuPrincipal{
 	width: 100%;
@@ -701,12 +881,11 @@ main{
 	width: 100%;
 	height: 330px;
 	float: left;
-    margin-top:9em;
+    margin-top:8.3em;
     margin-bottom: 0.9em;
     background-color: #fff;
     -webkit-box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
 	-moz-box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
 	box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
 }
-
 }

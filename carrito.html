@@ -1,34 +1,68 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-	<title>Carrito</title>
+	<title>Mundo Deporte</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="/favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" href="css/jquery-ui.css">
 	<link rel="stylesheet" href="css/estilo.css">
-	<link rel="stylesheet" href="css/ico.css">
+	<link rel="stylesheet" href="icomoon/style.css">
+	<link rel="stylesheet" href="css/aside.css">
 	<link rel="stylesheet" href="css/compra.css">
+	<script src="js/jquery.min.js"></script>
+	<script src="js/jquery-ui.js"></script>
+    <script type="text/javascript" src="js/codigo.js"></script>
+    <script type="text/javascript" src="js/calculadora.js"></script>
 </head>
 <body>
 	<header>
-		<div id="logo"><img src="img/logoMD.jpg"></div>
-		<div id="cont_CS">
-			<input type="search" id="search" name="search" placeholder="Buscar...">
-			<div id="buscar">
-				<span class="icon-search"></span>
+			<div id="logo"><img src="img/logo.png"></div>
+			<div id="contHeader1">
+				<div id="contDir">Av. Alvarez Thomas 8523 - La Reja - Bs. As. -021 5241-8954
+</div>
+				<div id="contLogin">
+					<nav class="login">
+						<ul class="loginUL">
+							<li class="loginLI"><span class="icon-user"></span>Login</span></li>
+							<li class="loginLI"><span class="icon-user"></span>Registrarse</li>
+						</ul>
+					</nav>
+				</div>
+				<div id="contRedes">
+					<div class="redSocialTop"><a href=http://www.facebook.com><img src="img/face.png"></a></div>
+					<div class="redSocialTop"><a href="http://www.twitter.com"><img src="img/twitter.png"></a></div>
+					<div class="redSocialTop"><a href="http://www.instagram.com"><img src="img/inst.png"></a></div>
+				</div>
 			</div>
-			<a href="carrito.html"><div id="carrito">
-				<span class="icon-cart"></span>
-			</div></a>
-		</div>
+			<div id="contHeader2"></div>
+			<div id="contHeader3">
+				<div id="contBuscar">
+					<input type="search" id="search" name="search" placeholder="Buscar...">
+					<div id="buscar"><span class="icon-search"></span></div>
+				</div>
+				<div id="contCarrito">
+					<div id="boxCarr">
+						<p class="sumaCarrito">0</p>
+						<a href="carrito.html">
+						<div id="carrito"><span class="icon-cart"></span></div></a>
+					</div>
+				</div>
+				<div id="contMenu">
+					<nav class="menuPrincipal">
+						<ul class="mpUL">
+							<a href="contacto.html">
+							<li class="mpLI">
+							<span class="icon-mail2"></span>Contacto</li></a>
+							<a href="#"><li class="mpLI"><span class="icon-connection"></span>Nosotros</li></a>
+							<a href="index.html"><li class="mpLI"><span class="icon-home"></span>Inicio</li></a>
+						</ul>
+					</nav>
+				</div>
+			</div>
 		<div class="clear"></div>
 	</header>
-	<nav>
-			<ul class="prin">
-				<a href="index.html"><li><span class="icon-home"></span>Inicio</li></a>
-				<a href="#"><li><span class="icon-connection"></span>Nosotros</li></a>
-				<a href="contacto.html"><li><span class="icon-mail2"></span>Contacto</li></a>
-			</ul>
-		</nav>
 	<main>
 		<section>
 			<h2><span class="icon-list2"></span> Finalizar Compra</h2>
@@ -42,15 +76,15 @@
 					</tr>
 					<tr>
 						<td>Botines adidas Ace 17.3 PRIMEMESH 2 TF - Rojo y Negro</td>
-						<td>$1.949,00</td>
-						<td>1</td>
-						<td>$1.949,00</td>
+						<td><input type="text" value="1949" name="precio" id="precio" disabled></td>
+						<td><input type="text" id="cant" name="cant"></td>
+						<td><span id="total">0</span></td>
 					</tr>
-						<tr>
-						<td>Botines Nike Mercurial Victory VI FG - Rosa y Blanco</td>
-						<td>$1.899,00</td>
-						<td>1</td>
-						<td>$1.899,00</td>
+					<tr>
+						<td>Botines Umbro Grass II Cpo - Rojo y Negro</td>
+						<td><input type="text" value="769,00" name="precio" id="precio" disabled></td>
+						<td><input type="text" id="cant" name="cant"></td>
+						<td><span id="total">0</span></td>
 					</tr>
 						<tr>
 						<td>Botines Umbro Grass II Cpo - Rojo y Negro</td>
@@ -68,13 +102,13 @@
 						<tr>
 						<td>-</td>
 						<td>-</td>
-						<td>-</td>
-						<td class="preciofinal">$6.645,00</td>
+						<td>Total a Pagar</td>
+						<td><span id="totalAPagar">0</span>/td>
 					</tr>
 				</table>
 			</div>
 				<div class="contBtn">
-			<a href="#" class="boton2"><span class="icon-cart"></span>Volver</a>
+			<a href="index.html" class="boton2"><span class="icon-cart"></span>Volver</a>
 			<a href="#" class="boton3"><span class="icon-checkmark"></span>Finalizar</a>
 		</div>
 	</section>

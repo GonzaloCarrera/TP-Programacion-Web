@@ -1,6 +1,8 @@
+h2{
+	padding-top:5em;
+}
 .contArt{
 	width: 100%;
-	height: 22em;
 }
 .description {
 	background-color:#C9C9C9;
@@ -9,7 +11,7 @@
 	margin:auto;
 	margin-bottom:1.5em;
 	width: 100%;
-	height: 22em;
+	height: 35em;
 	border:0.03em solid rgb(200, 200, 200);
 }
 
@@ -52,17 +54,18 @@ p{
 }
 
 .precioP{
+	clear:both;
 	width: 40%;
 	height: 15%;
-	font-size: 1.5em;
+	font-size: 0.7em;
 	font-weight: bold;
 	color: #000;
 	float: left;
 	text-align: center;
 	box-sizing: border-box;
 }
-.botonCarrito{
-	width: 25%;
+.botonCarrito2{
+	width: 40%;
 	height: 15%;
 	color: #000;
 	float: right;
@@ -116,39 +119,51 @@ img{
     max-width: 100%;
     height: auto;
     width: auto\9; /* ie8 */}
-
+.fancybox{
+	float: left;
+	margin-left: 15px;
+}
 
 
 /*tablet*//*tablet*//*tablet*//*tablet*//*tablet*/
 @media screen and (min-width:47em){ 
 .description {
-	height: 23em;
+	height: 25em;
 }
 .descComun{
-	height: 21.5em;
-	width: 19.5em;
+	height: 22.5em;
+	width: 20.5em;
 }
 p{
 	display: block;
 	font-size: 1em;
 	text-align: left;
 }
-
+.precioP{
+	font-size: 1.2em;
+}
 /*tablet*//*tablet*//*tablet*//*tablet*//*tablet*/
 /*pc*//*pc*//*pc*//*pc*//*pc*//*pc*//*pc*//*pc*/
 
 @media screen and (min-width:60em){
-
+h2{
+	padding-top:0;
+}
 .description {
 	height: 22em;
 }
+.descripcion p{
+	font-size:1.3em;
+}
+.precioP{
+	font-size: 2em;
+}
 .descComun{
-	height: 15.5em;
+	height: 17em;
 	width: 66%;
 }
 .imaPrin{
 	width: 30%;
 	float: left;
 	margin-right: 1em;
-
 }

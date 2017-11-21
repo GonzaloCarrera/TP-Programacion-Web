@@ -18,6 +18,7 @@ input{
 {
 	width: auto;
 	margin-bottom: 1em;
+	cursor: pointer;
 }
 textarea{
 	width: 100%;
@@ -29,13 +30,22 @@ textarea{
 .cont{
 	width: 100%;
 }
-.cont ul{
+.contactoUL{
+	list-style:none;
 	width: 100%;
 
+
 }
-.cont li{
+.contactoLI {
 	color:#000;
 	background-color: #fff;
 	border-radius: 0;
+	padding: 0.5em 0;
 	width: 100%;
+}
+.contactoLI span{
+	margin-right: 1em;
+}
+main{
+	padding-top: 10em;
 }
