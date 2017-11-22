@@ -324,22 +324,22 @@ article:hover{
 a.boton{
 	font-size: 0.8em;
 	color:black;
-	background-color: orange;
+	background-color: white;
 	display: block;
 	width: 90%;
 	border-radius: 0.7em;
 	padding:5px;
 	text-align: center;
 	text-decoration: none;
-	transition:0.5s;
+	transition:0.3s;
 	letter-spacing: 0.1em;
 	text-transform: uppercase;
 	border:0.03em solid black;
 	cursor: pointer;
 }
 a.boton:hover{
-	background-color: rgba(255, 50, 50,0.5);
-	box-shadow: rgba(255, 55,55,0.5) 0 0 10px;
+	background-color: orange;
+	color:white;
 }
 article img {
     display: block;
