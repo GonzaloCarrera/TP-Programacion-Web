@@ -4,14 +4,14 @@
                 function() {
                      numero++;
                     $(".sumaCarrito").text(numero);
-                    $(".boton").empty();
-                    $(".boton").append("QUITAR DEL CARRITO");
+                    $(this).empty();
+                    $(this).append("QUITAR DEL CARRITO");
                 },
                 function() {
                     numero--;
                     $(".sumaCarrito").text(numero);
-                    $(".boton").empty();
-                    $(".boton").append("AGREGAR AL CARRITO");
+                    $(this).empty();
+                    $(this).append("AGREGAR AL CARRITO");
                 }                        
             );
 
