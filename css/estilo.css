@@ -19,102 +19,7 @@ header{
 	position: fixed;
 	z-index: 4;
 }
-/*#contenedor_carrito{
-	width: 2em;
-	height: 2.5em;
-	float: right;
-	position: relative;
-	padding: 0 1%;
-	background-color: orange;
-}
-#carrito{
-	display: block;
-	padding: 0.3em 0.4em;
-	box-sizing: border-box;
-	transition:0.3s;
-	cursor:pointer;
-	font-size: 1.2em;
-  	color: #fff;
-  	background-color: #E74043; 
-  	border-radius: 50%;
-  	position: absolute;
-  	top: 10%;
-  	right: 20%;
-}
-#carrito:hover{
-  	color: #e00024;
-  	background-color: #fff;
-  	color: :#000;
-}
-.sumaCarrito{
-	font-weight: bold;
-	border-radius: 50%;
-	background-color: yellow;
-	text-align: center;
-	width: 50%;
-	position: absolute;
-	left:50%;
-	bottom: 50%;
-	z-index: 2;
-}
 
-[type="search"]{
-	width: 70%;
-	margin: 1.7% 0 0 15%;
-	padding:0.4em;
-	float: left;
-}
-#buscar{
-	display: block;
-	padding: 0.28em 0.3em;
-	margin: 0.67em 0;
-	box-sizing: border-box;
-	cursor:pointer;
-	font-size: 1em;
-  	color: #000;
-  	float: left;
-  	background-color: #fff;
-  	cursor:pointer; 
-}
-nav{
-	width: 100%;
-	margin-top: 9.3em;
-	position: fixed;
-	background-color: #E74043;
-	box-sizing:border-box;
-	z-index: 2;
-	float:left;
-}
-ul{
-	width: 60%;
-	text-decoration: none;
-	padding: 2% 0% 6% 5%;
-	margin: auto;
-	box-sizing:border-box;
-}
-li{
-	display: block;
-	width: 6.7em;
-	text-align:center;
-	padding: 2.1em 0.4em 0.4em 0.4em;
-	background-color:#E74043;
-	margin-right: 0.3em;
-	color: #fff;
-	border-radius:1em;
-	box-sizing:border-box;
-	float:left;
-	transition:0.3s;
-}
-li:hover{
-	background-color:#fff;
-	color:#000;
-	box-shadow: white 0 0 0.7em;
-}
-li span{
-	margin-right: 0.4em;
-}*/
-
-/*ARRANCA */
 #logo{
 	width:5em;
 	float:left;
@@ -139,11 +44,6 @@ li span{
 	box-sizing:border-box;
 	margin-left: 0.2em;
 }
-/*.login{
-	width: 100%;
-	padding:0;
-	margin:0;
-}*/
 .loginUL{
 	text-decoration: none;
 	box-sizing:border-box;
@@ -267,8 +167,6 @@ li span{
 .mpLI span{
 	margin-right: 0.4em;
 }
-/*TERMINA*/
-
 #sliderCont{
 	width: 100%;
 	height: 110px;
@@ -280,16 +178,7 @@ iframe{
 	background-color: none;
 	border: none;
 }
-/*main{
-	width: 90%;
-	height: auto;
-	padding-top: 15em;
-	margin:auto;
-	margin-bottom: 1em;
-	padding-bottom: 1em;
-	background-color: #fff;
-	
-}*/
+
 article{
 	background-color:#C9C9C9;
 	padding:1em;
@@ -349,7 +238,6 @@ article img {
     max-width: 100%;
     height: auto;
     box-shadow: rgba(220, 212, 203,1) 0 0 10px;
-    /*border-radius: 2em;*/
 }
 .oferta{
 	background-color: #04B45F;
@@ -430,7 +318,7 @@ h5{
 img{
     max-width: 100%;
     height: auto;
-    width: auto\9; /* ie8 */
+    width: auto\9;
 }
 
 
@@ -468,11 +356,6 @@ header{
 	float: left;
 	padding-top:0.1em;
 }
-/*.login{
-	width: 100%;
-	padding:0;
-	margin:0;
-}*/
 .loginUL{
 	text-decoration: none;
 	box-sizing:border-box;
@@ -496,14 +379,6 @@ header{
 	width: 30%;
 	float: left;
 }
-
-/*contenedor vacio, solo para separar*/
-/*#contHeader2{
-	width: 87%;
-	height: 20px;
-	float: left;
-}*/
-/*-----------------------------------------------*/
 #contHeader3{
 	width: 85%;
 	float: right;
@@ -602,44 +477,11 @@ header{
 .mpLI span{
 	margin-right: 0.4em;
 }
-
-/*main{
-	padding-top: 5em;
-	padding-bottom:3em;
-}*/
 article{
 	width: 45%;
 	margin-left:3%;
 	float:left;
 }
-/*nav{
-	margin-top: 0em;
-	padding: 0;
-	position: static;
-}
-ul{
-	padding-left: 10%;
-	width: 80%;
-}
-li{
-	width: 10em;
-}
-[type="search"]{
-	position:absolute;
-	width: 23.1em;
-	top:2.6em;
-	left:17.7em;
-}
-#buscar{
-	position:absolute;
-	top:2.1em;
-	left:33.9em;
-	border:0.1em solid black;
-	transition:0.3s;
-}
-#buscar:hover{
-	box-shadow: black 0 0 0.5em inset;
-}*/
 
 main{
 	width: 90%;
@@ -698,7 +540,6 @@ main{
 	background-color: #fff;
 }
 
-/*nuevos valores para cosas del header*/
 header{
 	width: 100%;
 	height: 8.3em;
@@ -731,11 +572,6 @@ header{
 	box-sizing:border-box;
 	margin-left: 2em;
 }
-/*.login{
-	width: 100%;
-	padding:0;
-	margin:0;
-}*/
 .loginUL{
 	text-decoration: none;
 	box-sizing:border-box;
@@ -767,14 +603,6 @@ header{
 	float: left;
 	margin-right: 3%;
 }
-
-/*contenedor vacio, solo para separar*/
-/*#contHeader2{
-	width: 87%;
-	height: 20px;
-	float: left;
-}*/
-/*-----------------------------------------------*/
 #contHeader3{
 	width: 80%;
 	float: right;
