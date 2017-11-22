@@ -15,6 +15,7 @@
 	<script src="js/jquery-ui.js"></script>
     <script type="text/javascript" src="js/codigo.js"></script>
     <script type="text/javascript" src="js/validacioncontacto.js"></script>
+    <!-- <script type="text/javascript" src="js/validacionjquery.js"></script> -->
 </head>
 <body>
 	<header>
@@ -69,12 +70,11 @@
 			<form onsubmit="return validar()" action="" method="POST" id="contacto" name="form">
 				<label for="nombreyapellido">Nombre y Apellido</label><br>
 				<input type="text" name="nombreyapellido" id="nombreyapellido" onkeyup="validar()"><br>
-				<div id="mensaje1" class="error">Introducir Nombre y Apellido</div>
 				<label for="email">Email</label><br>
-				<input type="email" name="email" id="email" placeholder="ejemplo@ejemplo.com"
+				<input type="text" name="email" id="email" placeholder="ejemplo@ejemplo.com"
 				onkeyup="validar()"><br>
 				<label for="tel">Telefono</label><br>
-				<input type="tel" name="tel" id="tel"><br><br>
+				<input type="text" name="tel" id="tel" onkeyup="validar()"><br><br>
 				<textarea placeholder="Ingrese comentario..." rows="10" cols="35" id="consulta" onkeyup="validar()"></textarea><br>
 				<input type="submit" name="Enviar" id="enviar" value="Enviar" class="enviar">
 				<div id="mensaje" class="error"></div>
